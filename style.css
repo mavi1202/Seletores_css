@@ -42,8 +42,16 @@ input[type="password"]{
     color:#f00;
 
 }
-
+/* seletor de filhos diretos */
 .login-form > input{
     color:#0f0;
     width:10rem;
 }
+
+/*  pseudo-classes*/
+.cadastro-form input:nth-of-type(2){
+    color:#00f;
+}
+
+
+
