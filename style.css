@@ -1,0 +1,49 @@
+/* Seletor global = Seleciona TODOS  os elementos da página ou de determinado lugar */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Seletor por tag */
+
+p{
+    color: #f00;
+}
+
+/* seletor pela classe */
+
+.paragrafo{
+    border:1px solid #0ff;
+    color:#00f;
+    margin-top: 1rem;
+}
+
+/* Seletor pelo Id */
+
+#titulo{
+    color:#0f0;
+    margin-bottom: 1rem;;
+
+}
+
+/* seletor pelo atributo */
+
+input[type="password"]{
+    font-size: 3rem;
+}
+
+/* Seletor de descendentes */
+
+.login-form input{
+    font-size:2rem;
+    color:#f00;
+
+}
+
+.login-form > input{
+    color:#0f0;
+    width:10rem;
+}
